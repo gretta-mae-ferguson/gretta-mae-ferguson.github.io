@@ -1,0 +1,13 @@
+---
+layout: post
+title: Metis Project 1
+---
+#Using data for effective canvassing
+
+Just one week into the Metis Data Science Bootcamp, I am already learning so much. I have not had much coding experience outside of Tableau and Excel since college, and even then I never worked with python. This week we learned how to scrape data from the web using pandas and APIs and how to create data visualizations using python with matplotlib and seaborn. 
+For our first project, we worked in groups of 4 to create a street canvassing strategy for "WTWY", a women's tech bootcamp which was hosting a fundraising gala in NYC. Their main concern was identifying at which subway stations to place canvassers so that they could maximize attendance and fundsraised. We therefore wanted our analysis to consider both quantity of exposures and quality (ideally canvassing in areas with affluent tech-employed professionals)
+Our group took a 4 pronged approach to answering this question. We wanted to identify (1) transit hubs (2) areas with high pedestrian traffic (3) areas with high income and (4) areas with a lot of tech companies. For each of these four areas, we gave each station a score from 1 (for the highest performing station) to 0. Our final recomendation was to canvass at those stations which had the highest sum of the four scores.
+The first step was to identify the datasets we would leverage for the analysis, then we had to manipulate and clean the data, then we created charts and graphs to visualize the data, and finally we created a presentation to convey our findings. 
+
+
+![final output]({{https://github.com/gretta-mae-ferguson/gretta-mae-ferguson.github.io/blob/master/images/Screen%20Shot%202018-09-28%20at%202.58.49%20AM.png?raw=true}})
