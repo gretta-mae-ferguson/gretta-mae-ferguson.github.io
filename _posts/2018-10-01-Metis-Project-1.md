@@ -2,7 +2,7 @@
 layout: post
 title: "Metis Project 1"
 ---
-#Using data for effective canvassing
+# Using data for effective canvassing
 
 Just one week into the Metis Data Science Bootcamp, I have already learned so much. This week we learned how to import data 
 from the web using pandas and APIs. We also learned how to create data visualizations using python with matplotlib and seaborn. 
@@ -18,10 +18,10 @@ people.
 ## Approach
 
 Our group took a 4 pronged approach to answering this question. We wanted to identify:
-1. TRANSIT      | Stations with high transit/train traffic 
-2. PEDESTRIAN   | Stations with high pedestrian traffic 
-3. INCOME       | Stations in areas with high median income, since affluent individuals are more likely to donate
-4. TECH         | Stations in areas with a lot of tech companies, since professionals in the tech industry are more likely to care about this cause
+1. Stations with high **transit** (train) traffic 
+2. Stations with high **pedestrian** traffic 
+3. Stations in areas with high median **income**, since affluent individuals are more likely to donate
+4. Stations in areas with a lot of **tech** companies, since professionals in the tech industry are more likely to care about this cause
 
 For each of these four areas, we assigned each station a score between 1 (for the highest performing station) to 0. Our final 
 recomendation would be to canvass at those stations which had the highest sum of the four scores, which we called our Benson 
